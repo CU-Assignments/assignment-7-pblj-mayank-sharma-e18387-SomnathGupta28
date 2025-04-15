@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee List</title>
+</head>
+<body>
+    <h2>Employee List</h2>
+    <form action="EmployeeServlet" method="get">
+        <label for="employeeId">Search Employee by ID:</label>
+        <input type="text" id="employeeId" name="employeeId" required>
+        <input type="submit" value="Search">
+    </form>
+    <hr>
+    <h3>All Employees:</h3>
+    <div id="employeeList">
+        <!-- Employee list will be populated here by the servlet -->
+    </div>
+</body>
+</html>
